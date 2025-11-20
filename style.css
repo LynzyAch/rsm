@@ -1,0 +1,15 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f6f9; overflow-x: hidden; }
+        .sidebar { width: 260px; height: 100vh; background: #343a40; color: #fff; position: fixed; top: 0; left: 0; z-index: 1000; }
+        .sidebar-header { padding: 20px; border-bottom: 1px solid #4b545c; font-size: 1.2rem; font-weight: bold; }
+        .menu-item { padding: 12px 20px; display: block; color: #c2c7d0; text-decoration: none; cursor: pointer; border-bottom: 1px solid rgba(255,255,255,0.05); transition: 0.3s; }
+        .menu-item:hover, .menu-item.active { background: #71b6ff; color: #000000; padding-left: 25px; }
+        .main-content { margin-left: 260px; padding: 20px; transition: 0.3s; }
+        .card-box { border-radius: 8px; padding: 25px; color: white; position: relative; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 140px; display: flex; flex-direction: column; justify-content: center; }
+        .card-box h3 { font-size: 2.5rem; font-weight: bold; margin: 0; }
+        .bg-green { background: linear-gradient(45deg, #28a745, #218838); }
+        .bg-blue { background: linear-gradient(45deg, #17a2b8, #138496); }
+        .bg-yellow { background: linear-gradient(45deg, #ffc107, #e0a800); color: #333 !important; }
+        .view { animation: fadeIn 0.3s; } @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        .hidden { display: none !important; }
+        .table-container { background: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 20px; }
+   
